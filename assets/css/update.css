@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:500');
+
+* {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 550;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-image: url("img/bg1.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top;
+    background-attachment: fixed;
+}
+
+h1{
+    font-weight: 900;
+    font-size: 30px;
+    color: whitesmoke;
+    position: absolute;
+    top: 110px;
+    left: calc(50% - 82px);
+}
+
+h4 {
+    padding: 0px 20px;
+    margin-top: 40px;
+    text-transform: uppercase;
+    color: rgb(255, 206, 0);
+}
+
+label {
+    margin-top: 10px;
+    float: left;
+    text-align: left;
+    width: 100%;
+    color: whitesmoke;
+}
+
+input {
+    padding: 6px;
+    width: 100%;
+    box-sizing: border-box;
+    background: #f8f8f8;
+    border: 2px solid #ccc;
+    outline-color: transparent;
+    border-radius: 8px;
+}
+
+div {
+    width: 100%;
+    height: auto;
+}
+
+.base {
+    width: 400px;
+    height: 500px;
+    padding: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    background: rgba(0,0,0,0.8);
+    border-radius: 15px;
+}
+
+a {
+    margin-top: 4px;
+    background-color: rgb(167, 164, 164);
+    color: black;
+    padding: 8px 16px;
+    text-decoration: none;
+    font-size: 12px;
+    position: absolute;
+    right: calc(50% - 75px);
+    border-radius: 8px;
+}
+
+button {
+    background-color: rgb(255, 206, 0);
+    color: black;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-size: 12px;
+    border: 0px;
+    position: absolute;
+    right: calc(50% - 200px);
+    border-radius: 10px;
+}
+
+button:hover{
+    cursor: pointer;
+}
+
+.tombol-bawah{
+    margin-top: 30px;
+}

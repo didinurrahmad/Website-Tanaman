@@ -1,0 +1,240 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:500');
+
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Montserrat", sans-serif;
+}
+
+html{
+  scroll-behavior: smooth;
+}
+
+body{
+    background-color: #c0e0b6;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top;
+    background-attachment: fixed;
+}
+
+.content-atas{
+  background-color: rgba(25,25,25,0.9);
+  padding-top: 20px;
+  margin-bottom: 20px;
+  border-radius: 15px;
+}
+
+.judul{
+  color: whitesmoke;
+}
+
+.form-control{
+  width: 100%;
+  border: 2px solid rgb(255, 255, 255);
+  border-radius: 8px;
+  background: whitesmoke;
+  margin: 2px 10px;
+  height: 37px;
+  color: black;
+  font-size: 16px;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.form-srch{
+  margin: 0px 40px;
+  margin-bottom: 10px;
+  display: grid;
+  grid-template-columns: 1fr 140px;
+}
+
+button[name="login"]{
+  margin-left: 40px;
+  padding: 9px 25px;
+  background-color: rgb(255, 206, 0);
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: all 0.3s ease 0s;
+  color: black;
+  outline-color: transparent;
+}
+
+li, a, button{
+  
+  font-weight: 500;
+  font-size: 16px;
+  color: #edf0f1;
+  text-decoration: none;
+}
+
+header{
+  position: fixed;
+  background-color: #005e2f;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 5px 10%;
+  width: 100%;
+  height: 50px;
+  margin-bottom: 0px;
+}
+
+.banner1{
+  cursor: pointer;
+  margin-right: auto;
+}
+
+.tombol_header{
+  list-style: none;
+}
+
+.tombol_header li{
+  display: inline-block;
+  padding: 0px 20px;
+}
+
+.tombol_header li a{
+  transition: all 0.3s ease 0s;
+}
+
+.tombol_header li a:hover{
+  color: #585957;
+  cursor: pointer;
+}
+
+.scrll-btn:hover{
+  cursor: pointer;
+}
+
+button[name="search"]{
+    margin-left: 20px;
+    padding: 9px 25px;
+    background-color: rgb(255, 206, 0);
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+    color: black;
+}
+/* 
+button[class="beli"]{
+  margin-top: 0px;
+  position: relative;
+  opacity: 0;
+  background-color:rgb(255, 206, 0);
+  border-radius: 30px;
+  cursor: pointer;
+  transition: all 0.3s ease 0s;
+  padding: 10px 15px;
+  border: none;
+  transition: 0.5s;
+} */
+
+.tulisan-beli{
+  border-radius: 30px;
+  padding: 10px 15px;
+  color: black;
+  font-size: 14px;
+}
+
+.tulisan-beli:hover{
+  color: #585957;
+}
+
+.card:hover button[class="beli"]{
+  top: 0;
+  opacity: 1;
+}
+
+button:hover{
+  background-color: rgb(119, 94, 3);
+}
+
+.content{
+    padding: 30px;
+    max-width: calc(100%-0px);
+    box-shadow: 0px 0px 5px rgba(0,0,0,0.9);
+}
+
+.card{
+    width: 300px;
+    height: 310px;
+    display: grid;
+    grid-template-columns: 300px;
+    grid-template-rows: 200px 70px 70px;
+    grid-template-areas: "image" "text" "action";
+    font-family: "Montserrat", sans-serif;
+    border-radius: 18px;
+    background: #ffffff;
+    box-shadow: 5px 5px 15px rgba(255, 255, 255, 0.9);
+    text-align: center;
+    color: rgb(0, 0, 0);
+}
+
+.card-image{
+    grid-area: image;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    border-top-right-radius: 18px;
+    border-top-left-radius: 18px;
+}
+
+.card-text{
+    padding-top:10px;
+    grid-area: text;
+    background: #ffffff;
+}
+
+.card-action{
+
+  grid-area: action;
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px; 
+}
+
+.kartu{
+    margin-left: 0px;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 1rem;
+}
+
+.kartu-satuan{
+    transition: 0.5s ease;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+}
+
+.kartu-satuan:hover{
+    transform: scale(1.1);
+}
+
+footer{
+  background-color: rgba(0,0,0,0.3);
+  color: white;
+  padding: 30px;
+}
+
+.isi-footer{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.social{
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+  margin-left: 42%;
+  margin-right: 42%;
+  margin-bottom: 10px;
+}
+
+.logo{
+  width: 40px;
+  height: 40px;
+}
