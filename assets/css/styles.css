@@ -45,7 +45,7 @@ header{
 }
 
 .tombol_header li a:hover{
-  color: #0088a9;
+  color: #aed38a;
 }
 
 button{
@@ -60,5 +60,5 @@ button{
 }
 
 button:hover{
-  background-color: rgb(209, 143, 0);
+  background-color: #aed38a;
 }
