@@ -49,18 +49,6 @@ body{
   grid-template-columns: 1fr 140px;
 }
 
-button[name="login"]{
-  margin-left: 40px;
-  padding: 9px 25px;
-  background-color: rgb(255, 206, 0);
-  border: none;
-  border-radius: 50px;
-  cursor: pointer;
-  transition: all 0.3s ease 0s;
-  color: black;
-  outline-color: transparent;
-}
-
 li, a, button{
   
   font-weight: 500;
@@ -111,7 +99,7 @@ header{
 button[name="search"]{
     margin-left: 20px;
     padding: 9px 25px;
-    background-color: #005e2f;
+    background-color: #aed38a;
     border: none;
     border-radius: 50px;
     cursor: pointer;
@@ -149,7 +137,7 @@ button[class="beli"]{
 }
 
 button:hover{
-  background-color: rgb(119, 94, 3);
+  background-color: #7db79a;
 }
 
 .content{
