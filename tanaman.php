@@ -106,33 +106,56 @@
     <footer id="bawah1">
         <div class="isi-footer">
             <div class="about-kiri">
-                <h2 align="left"> Tentang Kami</h2><br>
-                <h5 align="left"> Jl. Joyomulyo RT. 30 No. 31 <br><br> Samarinda <br><br> Kalimantan Timur <br><br> Indonesia </h5>
-                <h5 align="left"> <br><br> Contact Us: <br><br> dicup.store@gmail.com </h5><br>
+                <h2 align="center"> Tentang Kami
+                </h2>
+                <br>
+                <h5 align="center">-----------------------------------<br>KKN 49 Kelompok 72<br>
+                    -----------------------------------<br><br>
+                    [Gilang Yuda Pratama]
+                    <br><br>
+                    [Resya Winda Alya Khalisa]
+                    <br><br>
+                    [Lestari Jaenal]
+                    <br><br>
+                    [Via Milasari]
+                    <br><br>
+                    [Jonathan Rezza Nugraha]
+                    <br><br>
+                    [Nilla Puspita Sari]
+                    <br><br>
+                    [Cindy Della Ardana]
+                    <br><br>
+                    [Imam Rohadi]
+                    <br>
+                </h5>
             </div>
             <div class="about-tengah">
-                <h1 align="center"> <br><br> DICUP STORE</h1><br>
-                <h5 align="center"> >>>>>>>> Kelompok 15 <<<<<<<< <br><br> Informatika C 2020 <br><br> Made By </h5>
-                <h6 align="center"> <br> > Didi Nur Rahmad < <br><br> > Yusuf Adhy Iswanto <</h6><br>
-            </div>
-            <div class="about-kanan">
-                <h2 align="right"> Visi dan Misi</h2><br>
-                <h5 align="right"> DICUP STORE <br><br> Selalu Mendampingi <br> di setiap Kesuksesan Anda <br> " Sebagai Toko Laptop <br> Dengan Kualitas Barang <br> Dan Pelayanan TERBAIK " </h5>
-                <h5 align="right"> <br><br> Pengen Beli Laptop? <br><br> DICUP STORE Solusinya!</h6><br>
-            </div>
-        </div>
-        
-        <div class="sosmed">
-            <ul class="social">
-                <li><a href="https://wa.me/6282123511416" ><img src="assets/img/whatsapp.png" class="logo"></a></li>
-                <li><a href="https://www.facebook.com/" ><img src="assets/img/facebook.png" class="logo"></a></li>
-                <li><a href="https://www.instagram.com/" ><img src="assets/img/instagram.png" class="logo"></a></li>
-                <li><a href="https://www.twitter.com/" ><img src="assets/img/twitter.png" class="logo"></a></li>
-            </ul>
-        </div>
+                <h2 align="center">  Toga Center</h2>
+                <h4 align="center"> <br>>>>>>>>> Kelompok 72 <<<<<<<< <br><br> Muara Jawa Tengah <br> Made By <br> </h4>
+                <h5 align="center"><br>  > Gilang Yuda Pratama <  </h5>
+                <br><br><br>
+                <div class="sosmed">
+                    <ul class="social">
+                        <div class="whatsapp">
+                            <li><a href="https://wa.me/6282123511416" ><img src="assets/img/whatsapp.png" class="logo"></a></li>
+                        </div>
+                        <div class="instagram">
+                            <li><a href="https://www.instagram.com/" ><img src="assets/img/instagram.png" class="logo"></a></li>
+                        </div>
+                        <div class="email">
+                            <li><a href="https://www.twitter.com/" ><img src="assets/img/email.png" class="logo"></a></li>
+                        </div>
+                    </ul>
+                </div>
 
-        <div class="copyright">
-            <h6 align="center">copyright &copy;2020 DicupStore. designed by <span>Didi & Ucup</span></h6>
+                <div class="copyright">
+                    <h6 align="center">copyright &copy;2023 kukar72. <br>designed by <span>Gilang Yuda Pratama</span></h6>
+                </div>
+            </div>  
+            <div class="about-kanan">
+                <h2 align="center"> Terima Kasih <br>Kepada :</h2>
+                <h5 align="Center"> <br><br>1. Kelurahan Muara Jawa Tengah <br><br> 2. PT. Pertamina Hulu Sanga - Sanga <br><br>3. H. Ary <br><br>4. Ibu Darnah Andi Nohe, S.Si., M.Si.</h5>
+            </div>
         </div>
     </footer>
     <script>

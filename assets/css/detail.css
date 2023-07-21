@@ -36,6 +36,13 @@ li, a, button{
   text-align: justify;
   text-justify: inter-word;
   text-indent: 40px;
+  white-space: pre-line;
+}
+
+.tulisan-latin{
+  font-weight: 100;
+  font-size: 14px;
+  font-style: italic;
 }
 
 .tombol-bawah{

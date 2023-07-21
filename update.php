@@ -37,8 +37,16 @@
           <input type="text" name="nama" value="<?php echo $data['nama']; ?>" autofocus="" required="" />
         </div>
         <div>
+          <label>Nama Latin</label>
+          <input type="text" name="latin" value="<?php echo $data['latin']; ?>" />
+        </div>
+        <div>
+          <label>Link Youtube</label>
+          <input type="text" name="linkyt" value="<?php echo $data['linkyt']; ?>" />
+        </div>
+        <div>
           <label>Deskripsi :</label>
-          <input type="text" name="deskripsi" value="<?php echo $data['deskripsi']; ?>" />
+          <textarea name="deskripsi" id ="deskripsi" cols="30" rows="10" value="<?php echo $data['deskripsi']; ?>"> </textarea>
         </div>
         <div>
           <label>Gambar Tanaman :</label>

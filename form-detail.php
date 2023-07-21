@@ -32,10 +32,11 @@
     </nav>
 </header>
 <div class="bungkus-inputan">
-        <center>
-        <div class="judul-tanaman">
-            <h3><?php echo $result['nama']; ?></h3>
-        </div>
+    <center>
+    <div class="judul-tanaman">
+        <h3><?php echo $result['nama']; ?></h3>
+        <h4 class="tulisan-latin"><?php echo $result['latin']; ?></h4>
+    </div>
     </center>
     <div class="card-image">
         <img src="assets/img/<?php echo $result['gambar']; ?>">
@@ -44,7 +45,7 @@
         <p><?php echo $result['deskripsi']; ?></p>
         </div>
         <div class="tombol-bawah">
-            <a href="tanaman.php">Link Youtube</a>
+            <a href="<?php echo $result['linkyt']; ?>">Link Youtube</a>
         </div>
     </div>
     <!-- Footer -->

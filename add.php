@@ -21,8 +21,12 @@
             <input type="text" name="nama" autofocus="" required="" />
           </div>
           <div>
+            <label>Nama Latin</label>
+            <input type="text" name="latin"/>
+          </div>
+          <div>
             <label>Deskripsi</label>
-            <input type="text" name="deskripsi" />
+            <textarea name="deskripsi" id="deskripsi" cols="30" rows="10"></textarea>
           </div>
           <div>
             <label>Gambar Tanaman</label>
@@ -30,7 +34,7 @@
           </div>
           <div>
             <label>Link Youtube</label>
-            <input type="text" name="deskripsi" />
+            <input type="text" name="linkyt"/>
           </div>
         </div>
         <div class="tombol-bawah">

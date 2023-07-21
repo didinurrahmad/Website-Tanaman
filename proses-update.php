@@ -2,6 +2,8 @@
   include 'koneksi.php';
   $id = $_POST['id'];
   $nama   = $_POST['nama'];
+  $namalatin   = $_POST['latin'];
+  $linkyt   = $_POST['linkyt'];
   $deskripsi     = $_POST['deskripsi'];
   $gambar = $_FILES['gambar']['name'];
   if($gambar != "") {
@@ -27,7 +29,7 @@
                   echo "<script>alert('Ekstensi gambar yang boleh hanya jpg atau png atau webp.');window.location='create.php';</script>";
               }
     } else {
-      $query  = "UPDATE daftar_tanaman SET nama = '$nama', deskripsi = '$deskripsi'";
+      $query  = "UPDATE daftar_tanaman SET nama = '$nama', deskripsi = '$deskripsi', latin = '$namalatin', linkyt = '$linkyt'";
       $query .= "WHERE id = '$id'";
       $result = mysqli_query($conn, $query);
       if(!$result){

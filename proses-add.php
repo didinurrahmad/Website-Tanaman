@@ -1,6 +1,8 @@
 <?php
 include 'koneksi.php';
 $nama   = $_POST['nama'];
+$namalatin   = $_POST['latin'];
+$linkyt   = $_POST['linkyt'];
 $deskripsi     = $_POST['deskripsi'];
 $gambar = $_FILES['gambar']['name'];
 
@@ -13,7 +15,7 @@ if($gambar != "") {
   $nama_gambar_baru = $angka_acak.'-'.$gambar;
         if(in_array($ekstensi, $ekstensi_diperbolehkan) === true)  {     
                 move_uploaded_file($file_tmp, 'assets/img/'.$nama_gambar_baru);
-                  $query = "INSERT INTO daftar_tanaman (nama, deskripsi, gambar) VALUES ('$nama', '$deskripsi', '$nama_gambar_baru')";
+                  $query = "INSERT INTO daftar_tanaman (nama, latin, linkyt, deskripsi, gambar) VALUES ('$nama', '$namalatin', '$linkyt', '$deskripsi', '$nama_gambar_baru')";
                   $result = mysqli_query($conn, $query);
                   if(!$result){
                       die ("Query gagal dijalankan: ".mysqli_errno($conn).
@@ -26,14 +28,14 @@ if($gambar != "") {
                 echo "<script>alert('Ekstensi gambar yang boleh hanya jpg atau png atau webp.');window.location='create.php';</script>";
             }
 } else {
-   $query = "INSERT INTO daftar_tanaman (nama, deskripsi, gambar) VALUES ('$nama', '$deskripsi', null)";
-                  $result = mysqli_query($conn, $query);
-                  if(!$result){
-                      die ("Query gagal dijalankan: ".mysqli_errno($conn).
-                           " - ".mysqli_error($conn));
-                  } else {
-                    echo "<script>alert('Data berhasil ditambah.');window.location='admin.php';</script>";
-                  }
+  $query = "INSERT INTO daftar_tanaman (nama, latin, linkyt, deskripsi, gambar) VALUES ('$nama', '$namalatin', '$linkyt', '$deskripsi', null)";
+  $result = mysqli_query($conn, $query);
+  if(!$result){
+      die ("Query gagal dijalankan: ".mysqli_errno($conn).
+            " - ".mysqli_error($conn));
+  } else {
+    echo "<script>alert('Data berhasil ditambah.');window.location='admin.php';</script>";
+  }
 }
 
  

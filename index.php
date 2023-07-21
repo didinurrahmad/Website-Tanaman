@@ -26,6 +26,9 @@
     
     <section class="main">
         <div class="container">
+            <div class="banner-logo">
+                <img src="assets/img/logo.png" alt="" width=250px height=250px>
+            </div>
             <div class="main-content">
                 <div class="text">
                     <h1>
@@ -40,9 +43,7 @@
                     </form>
                 </div>
             </div>
-            <div class="banner-logo">
-                <img src="assets/img/logo.png" alt="" width=250px height=250px>
-            </div>
+            
         </div>
     </section>
 </body>

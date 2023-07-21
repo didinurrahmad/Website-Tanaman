@@ -18,9 +18,7 @@
               <li><a class="scrll-btn" onclick="contentClick(1)">Tentang</a></li>
               <li><a href="tanaman.php">Tanaman</a></li>
           </ul>
-      </nav>
-      
-           
+      </nav> 
     </header>
     <!-- Konten -->
     <div class="content">
@@ -50,6 +48,8 @@
                 <th width="145px">Action</th>
                 <th>Nama</th>
                 <th width="200px">Dekripsi</th>
+                <th>Nama Latin</th>
+                <th>Link Youtube</th>
                 <th>Gambar</th>
               </tr>
             </thead>
@@ -80,6 +80,8 @@
                 </td>
                 <td ><div class="merek"><?php echo $dtn['nama']; ?></div></td>
                 <td align="justify"><?php echo $dtn['deskripsi']; ?></td>
+                <td ><div class="merek"><?php echo $dtn['latin']; ?></div></td>
+                <td ><div class="merek"><?php echo $dtn['linkyt']; ?></div></td>
                 <td style="text-align: center;"><img src="assets/img/<?php echo $dtn['gambar']; ?>" style="height: 75px;"></td>
               </tr>
             <?php $i++; ?>
