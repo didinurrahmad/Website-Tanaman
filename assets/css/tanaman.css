@@ -12,11 +12,11 @@ html{
 }
 
 body{
-    background-color: #c0e0b6;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: top;
-    background-attachment: fixed;
+  background-color: #aed38a;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+  background-attachment: fixed;
 }
 
 .content-atas{
@@ -24,6 +24,11 @@ body{
   padding-top: 20px;
   margin-bottom: 20px;
   border-radius: 15px;
+}
+
+.content-atas h1 a{
+  font-size: 24px;
+  font-weight: bold;
 }
 
 .judul{
@@ -80,7 +85,7 @@ header{
 
 .tombol_header li{
   display: inline-block;
-  padding: 0px 20px;
+  padding: 0px 5px;
 }
 
 .tombol_header li a{
@@ -223,6 +228,19 @@ footer{
 }
 
 .logo{
-  width: 40px;
-  height: 40px;
+  font-size: 20px;
+  cursor: pointer;
+  margin-right: auto;
+  color: rgb(7, 7, 7);
+  font-weight: bold;
+  width: auto;
+  height: 20px;
 }
+
+
+.logo p{
+  font-size: 10px;
+  font-weight: 500;
+  color: white;
+}
+

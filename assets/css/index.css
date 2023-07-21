@@ -1,8 +1,16 @@
-.container{
-    width: 70%;
+@import url('https://fonts.googleapis.com/css?family=Montserrat:500');
+
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* .container{
+    width: 80%;
     height: 70vh;
     top: calc(50% - 38vh);
-    left: calc(50% - 35%);
+    left: calc(50% - 40%);
     position: absolute;
     background-color: rgba(255,255,255,0.2);
 }
@@ -15,20 +23,18 @@
     background-size: cover;
     position: fixed;
     z-index: -1;
-}
+} */
 
-.main-contet{
+/* .main-contet{
     display: flex;
 }
 
 .text{
     padding-top: 10rem;
     margin-left: 100px;
-}
+} */
 
-
-
-.banner-logo{
+/* .banner-logo{
     margin-top: -350px;
     margin-right: 100px;
     float: right;
@@ -51,8 +57,149 @@
 .main-content button[name="get-started"]{
     margin-left: 0px;
     margin-top: 20px;
-}
+} */
 
 button[name="login"]{
     margin-left: 40px;
+}
+
+li, a, button{
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  color: #edf0f1;
+  text-decoration: none;
+
+}
+
+header{
+  background-color: #005e2f;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 5px 10%;
+  width: 100%;
+  height: 60px;
+}
+
+.logo{
+  font-size: 20px;
+  cursor: pointer;
+  margin-right: auto;
+  color: rgb(7, 7, 7);
+  font-weight: bold;
+  width: auto;
+  height: 20px;
+}
+
+
+.logo p{
+  font-size: 10px;
+  font-weight: 500;
+  color: white;
+}
+
+.tombol_header{
+  list-style: none;
+}
+
+.tombol_header li{
+  display: inline-block;
+  padding: 0px 5px;
+}
+
+.tombol_header li a{
+  transition: all 0.3s ease 0s;
+}
+
+.tombol_header li a:hover{
+  color: #aed38a;
+}
+
+button{
+  margin-left: 20px;
+  padding: 9px 25px;
+  background-color: #005e2f;
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: all 0.3s ease 0s;
+  color: rgb(255, 255, 255);
+}
+
+button:hover{
+  background-color: #aed38a;
+}
+
+/* Add this in your existing index.css */
+
+.container {
+  width: 80%;
+  max-width: 1200px; /* Set a maximum width for the container */
+  margin: 0 auto; /* Center the container horizontally */
+  padding: 20px;
+  background-color: rgba(255, 255, 255, 0.2);
+}
+
+.main {
+  width: 100%;
+  min-height: 100vh; /* Use min-height to ensure full screen coverage */
+  background-color: rgb(255, 255, 255);
+  background-position: center;
+  background-size: cover;
+  z-index: -1;
+}
+
+.main-content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center; /* Center items vertically */
+}
+
+.text {
+  text-align: center; /* Center text */
+}
+
+.banner-logo {
+  text-align: center; /* Center the image */
+}
+
+.text h1 {
+  text-align: center;
+  text-justify: inter-word;
+  font-family: "Quicksand", sans-serif;
+  color: black;
+  font-size: 40px;
+  font-weight: 500 !important;
+}
+
+.text p {
+  font-family: "Quicksand", sans-serif;
+  font-weight: 500;
+  font-size: 15px;
+  margin-top: 10px;
+}
+
+.main-content button[name="get-started"] {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-right: 20px;
+}
+
+/* Add media queries for responsiveness */
+@media only screen and (max-width: 768px) {
+  .container {
+    width: 90%;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .text h1 {
+    font-size: 28px;
+  }
+
+  .text p {
+    font-size: 14px;
+  }
 }

@@ -28,6 +28,10 @@
             <label>Gambar Tanaman</label>
             <input type="file" name="gambar" required="" />
           </div>
+          <div>
+            <label>Link Youtube</label>
+            <input type="text" name="deskripsi" />
+          </div>
         </div>
         <div class="tombol-bawah">
           <button type="submit">Simpan Data</button>

@@ -11,7 +11,10 @@
 <body>
     
     <header>
-        <a href="index.php" class="logo">Tanaman</a>
+    <a 
+            href="index.php" class="logo">TOGA Center
+            <p>Kelurahan Muara Jawa Tengah</p>
+        </a>
         <nav>
             <ul class="tombol_header">
                 <li><a href="index.php">Beranda</a></li>
@@ -27,9 +30,7 @@
                 <div class="text">
                     <h1>
                         Hallo, 
-                        <br> Ini Adalah Website 
-                        <br> Nama-Nama Tanaman 
-                        <br> yang Kami Buat
+                        <br>Ini Adalah Website Nama-Nama Tanaman yang Kami Buat
                     </h1>
                     <p>
                         Kami menyediakan banyak jenis tanaman yang bisa kalian lihat <br>
@@ -40,7 +41,7 @@
                 </div>
             </div>
             <div class="banner-logo">
-                <img src="assets/img/logo.png" alt="" width=350px height=350px>
+                <img src="assets/img/logo.png" alt="" width=250px height=250px>
             </div>
         </div>
     </section>

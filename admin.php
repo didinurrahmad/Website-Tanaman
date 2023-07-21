@@ -79,7 +79,7 @@
                   </div>
                 </td>
                 <td ><div class="merek"><?php echo $dtn['nama']; ?></div></td>
-                <td align="center"><?php echo $dtn['deskripsi']; ?></td>
+                <td align="justify"><?php echo $dtn['deskripsi']; ?></td>
                 <td style="text-align: center;"><img src="assets/img/<?php echo $dtn['gambar']; ?>" style="height: 75px;"></td>
               </tr>
             <?php $i++; ?>

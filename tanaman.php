@@ -35,12 +35,14 @@
 <body>
     <!-- Navbar -->
     <header>
-        <a href="index.php" class="banner1">Tanaman</a>
+    <a 
+            href="index.php" class="logo">TOGA Center
+            <p>Kelurahan Muara Jawa Tengah</p>
+        </a>
         <nav>
             <ul class="tombol_header">
                 <li><a href="index.php">Beranda</a></li>
                 <li><a class="scrll-btn" onclick="contentClick(1)">Tentang</a></li>
-                <li><a href="tanaman.php">Tanaman</a></li>
             </ul>
         </nav>
         
@@ -50,7 +52,7 @@
     <!-- Konten -->
     <div class="content">
         <div class="content-atas">
-            <h1 align="center" class="judul">Daftar Tanaman</h1><br>
+            <h1 align="center" class="judul"><a href="tanaman.php">Daftar Tanaman</a></h1><br>
             <form action="" method="GET" class="form-srch">
                 <div class="form-outline">
                     <input type="text" name="keyword" id="keyword" class="form-control">
@@ -139,8 +141,6 @@
             const component = document.getElementById(`bawah${value}`);
             component.scrollIntoView();
         }
-
-       
     </script>
 </body>
 </html>
