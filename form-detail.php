@@ -54,17 +54,17 @@
             <div class="about-kiri">
                 <h2 align="left"> Tentang Kami</h2><br>
                 <h5 align="left"> Jl. Joyomulyo RT. 30 No. 31 <br><br> Samarinda <br><br> Kalimantan Timur <br><br> Indonesia </h5>
-                <h5 align="left"> <br><br> Contact Us: <br><br> dicup.store@gmail.com </h5><br>
+                <h5 align="left"> <br><br> Contact Us: <br><br> Tanaman.store@gmail.com </h5><br>
             </div>
             <div class="about-tengah">
-                <h1 align="center"> <br><br> DICUP STORE</h1><br>
+                <h1 align="center"> <br><br> Web Tanaman</h1><br>
                 <h5 align="center"> >>>>>>>> Kelompok 15 <<<<<<<< <br><br> Informatika C 2020 <br><br> Made By </h5>
                 <h6 align="center"> <br> > Didi Nur Rahmad < <br><br> > Yusuf Adhy Iswanto <</h6><br>
             </div>
             <div class="about-kanan">
                 <h2 align="right"> Visi dan Misi</h2><br>
-                <h5 align="right"> DICUP STORE <br><br> Selalu Mendampingi <br> di setiap Kesuksesan Anda <br> " Sebagai Toko Laptop <br> Dengan Kualitas Barang <br> Dan Pelayanan TERBAIK " </h5>
-                <h5 align="right"> <br><br> Pengen Beli Laptop? <br><br> DICUP STORE Solusinya!</h6><br>
+                <h5 align="right"> Web Tanaman <br><br> Selalu Mendampingi <br> di setiap Kesuksesan Anda <br> " Sebagai Toko Laptop <br> Dengan Kualitas Barang <br> Dan Pelayanan TERBAIK " </h5>
+                <h5 align="right"> <br><br> Pengen Beli Laptop? <br><br> Web Tanaman Solusinya!</h6><br>
             </div>
         </div>
         
@@ -78,7 +78,7 @@
         </div>
     
         <div class="copyright">
-            <h6 align="center">copyright &copy;2020 DicupStore. designed by <span>Didi & Ucup</span></h6>
+            <h6 align="center">copyright &copy;2020 TanamanStore. designed by <span>Didi & Ucup</span></h6>
         </div>
     </footer>
     <script>
